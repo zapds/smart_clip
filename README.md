@@ -53,7 +53,7 @@ pio run --target upload # flash
 pio device monitor      # serial log at 115200 baud
 ```
 
-`platformio.ini` pins the upload and monitor port to `/dev/ttyUSB0`. On macOS or Windows, either change `upload_port` / `monitor_port` or delete both lines and let PlatformIO auto-detect.
+The board's serial port is auto-detected, so no `upload_port` / `monitor_port` is configured. If you have more than one serial device attached, pass `--upload-port` / `--monitor-port` explicitly.
 
 ### Using it
 
