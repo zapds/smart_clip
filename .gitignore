@@ -1,0 +1,17 @@
+# PlatformIO build artifacts and downloaded packages
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
